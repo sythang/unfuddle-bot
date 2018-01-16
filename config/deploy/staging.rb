@@ -7,7 +7,7 @@ server "172.104.170.135", user: "vinova", roles: %w{app db web}
 set :deploy_to, "/home/vinova/proj-unfuddle-bot"
 
 set :deploy_via, :remote_cache
-set :branch, "staging"
+set :branch, "master"
 
 server "172.104.170.135",
   user: "vinova",
@@ -21,4 +21,4 @@ set :ssh_options, {
 }
 set :conditionally_migrate, true
 
-set :linked_files, fetch(:linked_files, []).push('.env.staging')
+# set :linked_files, fetch(:linked_files, []).push('.env.staging')

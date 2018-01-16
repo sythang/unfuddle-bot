@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.10.1"
 
-set :application, "yappeg"
-set :repo_url, "git@vinova.unfuddle.com:vinova/archive.git"
+set :application, "unfuddle-bot"
+set :repo_url, "https://github.com/sythang/unfuddle-bot.git"
 set :rvm_ruby_version, '2.4.0@yappeg'
 
 # Default branch is :master
